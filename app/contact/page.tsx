@@ -13,7 +13,7 @@ const ContactUs = () => {
 
       <div className="flex flex-col lg:flex-row gap-10 lg:gap-20">
         
-        {/* CONTACT FORM */}
+        {}
         <div className="lg:w-1/2 bg-white p-8 rounded-2xl shadow-lg border border-gray-100">
           <form className="flex flex-col gap-6">
             <div>
