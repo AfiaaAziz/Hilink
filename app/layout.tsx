@@ -1,8 +1,8 @@
 import type { Metadata } from 'next';
-
 import './globals.css'
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
+import AuthProvider from '@/components/AuthProvider'; // <-- IMPORT
 
 export const metadata: Metadata = {
   title: 'Travel',
@@ -17,11 +17,14 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
-        <Navbar />
-        <main className="relative overflow-hidden">
-          {children}
-        </main>
-        <Footer />
+        {/* WRAP EVERYTHING WITH THE PROVIDER */}
+        <AuthProvider> 
+          <Navbar />
+          <main className="relative overflow-hidden">
+            {children}
+          </main>
+          <Footer />
+        </AuthProvider>
       </body>
     </html>
   )
