@@ -11,3 +11,4 @@ const AuthProvider = ({ children }: Props) => {
 };
 
 export default AuthProvider;
+// components/AuthProvider.tsx

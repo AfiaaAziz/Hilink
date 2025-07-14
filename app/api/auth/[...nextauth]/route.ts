@@ -8,7 +8,7 @@ const handler = NextAuth({
       clientSecret: process.env.GOOGLE_CLIENT_SECRET!,
     }),
   ],
-  // You can add custom pages, callbacks, etc. here if needed
+  
 })
 
 export { handler as GET, handler as POST }
