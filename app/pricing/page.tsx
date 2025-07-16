@@ -1,4 +1,3 @@
-// app/pricing/page.tsx
 
 import Button from "@/components/Button";
 import { HiCheckCircle } from "react-icons/hi";
@@ -15,7 +14,7 @@ const Pricing = () => {
 
       <div className="flex flex-col lg:flex-row justify-center items-center gap-8">
         
-        {/* Free Plan */}
+        {}
         <div className="flex flex-col p-8 w-full max-w-md bg-white rounded-2xl shadow-lg border-2">
           <h3 className="bold-20">Free</h3>
           <p className="regular-16 text-gray-30 mt-2">For casual explorers</p>
@@ -32,7 +31,7 @@ const Pricing = () => {
           <Button type="button" title="Get Started" variant="btn_dark_green_outline" full />
         </div>
 
-        {/* Pro Plan - Highlighted */}
+        {}
         <div className="flex flex-col p-8 w-full max-w-md bg-white rounded-2xl shadow-2xl border-4 border-green-50 relative">
           <span className="absolute top-0 -translate-y-1/2 bg-green-50 text-white bold-16 px-4 py-1 rounded-full">Most Popular</span>
           <h3 className="bold-20">Pro</h3>
@@ -55,7 +54,7 @@ const Pricing = () => {
   );
 };
 
-// A helper component for feature lists
+
 const Feature = ({ children, check }: { children: React.ReactNode, check: boolean }) => (
   <li className={`flex items-center gap-3 ${check ? '' : 'text-gray-30 line-through'}`}>
     <HiCheckCircle className={`w-6 h-6 ${check ? 'text-green-50' : 'text-gray-20'}`} />

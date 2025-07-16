@@ -1,4 +1,3 @@
-// app/how-it-works/page.tsx
 
 import { HiOutlineSearch, HiOutlineMap, HiOutlineUsers, HiOutlineSparkles } from "react-icons/hi";
 
