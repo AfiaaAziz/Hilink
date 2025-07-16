@@ -1,28 +1,22 @@
-// File: app/contact/page.tsx
 
-"use client"; // This is CRITICAL for making the form interactive
+"use client";
 
 import { useState } from "react";
 import { HiOutlineMail, HiOutlinePhone, HiOutlineLocationMarker } from "react-icons/hi";
 
 const ContactUsPage = () => {
-  // --- STATE MANAGEMENT ---
-  // Store the values of the input fields
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
   const [message, setMessage] = useState('');
-  
-  // Store the form's state (loading, success, error)
   const [loading, setLoading] = useState(false);
   const [responseMessage, setResponseMessage] = useState('');
 
   // --- FORM SUBMISSION LOGIC ---
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
-    e.preventDefault(); // Stop the page from reloading
+    e.preventDefault();
     setLoading(true);
     setResponseMessage('');
 
-    // Send the form data to our API endpoint
     const res = await fetch('/api/contact', {
       method: 'POST',
       headers: {
@@ -33,10 +27,8 @@ const ContactUsPage = () => {
 
     const result = await res.json();
 
-    // Handle the response from the API
     if (res.ok) {
       setResponseMessage("Success! Your message has been sent.");
-      // Clear the form fields
       setName('');
       setEmail('');
       setMessage('');
@@ -44,10 +36,9 @@ const ContactUsPage = () => {
       setResponseMessage(`Error: ${result.error || 'Something went wrong.'}`);
     }
 
-    setLoading(false); // Stop the loading state
+    setLoading(false); 
   };
 
-  // --- JSX / COMPONENT RENDER ---
   return (
     <section className="max-container padding-container py-10 lg:py-20">
       <div className="text-center mb-12">
@@ -105,7 +96,7 @@ const ContactUsPage = () => {
 
         </div>
 
-        {/* Contact Info Section (no changes needed here) */}
+        {}
         <div className="lg:w-1/2 flex flex-col justify-center gap-8">
             <h3 className="bold-32">Or Reach Us Directly</h3>
             <ul className="flex flex-col gap-6">
