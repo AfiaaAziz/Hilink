@@ -57,7 +57,7 @@ const ContactUsPage = () => {
               <input
                 type="text"
                 id="name"
-                placeholder="John Doe"
+                placeholder="Enter your full name"
                 className="w-full p-4 bg-gray-50 rounded-lg border focus:outline-none focus:ring-2 focus:ring-green-50 transition"
                 value={name}
                 onChange={(e) => setName(e.target.value)}
@@ -69,7 +69,7 @@ const ContactUsPage = () => {
               <input
                 type="email"
                 id="email"
-                placeholder="you@company.com"
+                placeholder="Enter your email address"
                 className="w-full p-4 bg-gray-50 rounded-lg border focus:outline-none focus:ring-2 focus:ring-green-50 transition"
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}

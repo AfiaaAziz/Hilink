@@ -1,4 +1,3 @@
-// app/services/page.tsx
 
 import { FEATURES } from "@/constants";
 import Image from "next/image";
@@ -13,7 +12,7 @@ const Services = () => {
         </p>
       </div>
 
-      {/* Reusing the FEATURES constant from your homepage for consistency */}
+      {}
       <ul className="mt-10 grid gap-10 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2">
         {FEATURES.map((feature) => (
           <FeatureItem 
