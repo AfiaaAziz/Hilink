@@ -35,6 +35,15 @@ Check out the live version here:
 - **Deployment:** [Vercel](https://vercel.com/)
 
 ---
+## 📸 Screenshots
+
+### 🏠 Homepage
+![Homepage](screenshots/homepage.png)
+
+### 📬 Contact Form
+![Contact Form](screenshots/contact.png)
+
+---
 
 ## 📥 How to Use
 
