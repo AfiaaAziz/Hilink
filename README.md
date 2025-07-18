@@ -38,7 +38,7 @@ Check out the live version here:
 ## 📸 Screenshots
 
 ### 🏠 Homepage
-![Homepage](screenshots/homepage.png)
+![Homepage](screenshots/HomePage.png)
 
 ### 📬 Contact Form
 ![Contact Form](screenshots/contact.png)
