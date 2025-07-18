@@ -68,7 +68,11 @@ Check out the live version here:
 ------
 
 ## 🧠 Supabase Query
+
+Run the following SQL query in the **Supabase SQL Editor** to create the required table:
+
 ![Supabase Query](screenshots/query.png)
+
 
 ------
 
