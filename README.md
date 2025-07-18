@@ -34,7 +34,7 @@ Check out the live version here:
 - **Styling:** Tailwind CSS
 - **Deployment:** [Vercel](https://vercel.com/)
 
----
+------
 ## 📸 Screenshots
 
 ### 🏠 Homepage
@@ -43,17 +43,7 @@ Check out the live version here:
 ------
 
 ## 📊 How HiLink Works
-![How HiLink Works](screenshots/2ndpage.png)
-
-------
-
-## 🧠 Supabase Query
-![Supabase Query](screenshots/query.png)
-
-------
-
-## 💰 Pricing Section
-![Pricing](screenshots/pricingplan.png)
+![How HiLink Works](screenshots/page.png)
 
 ------
 
@@ -62,13 +52,25 @@ Check out the live version here:
 
 ------
 
+## 💰 Pricing Section
+![Pricing](screenshots/pricing.png)
+
+------
+
 ### 📬 Contact Form
 ![Contact Form](screenshots/contact.png)
+
+------
 
 ### 🧠 Supabase Backend (Database View)
 ![Supabase Backend](screenshots/Supabase.png)
 
----
+------
+
+## 🧠 Supabase Query
+![Supabase Query](screenshots/query.png)
+
+------
 
 ## 📥 How to Use
 
