@@ -1,36 +1,62 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# HiLink
 
-## Getting Started
+HiLink is a sleek, fully responsive web application built with Next.js that allows users to authenticate securely and submit their contact information with ease. The website is designed with a clean and modern user interface that ensures a smooth user experience across all devices.
 
-First, run the development server:
+Upon visiting the site, users can log in using NextAuth.js, which provides a secure and scalable authentication system. Once authenticated, users can fill out a contact form. The data entered in this form is validated and then submitted to Supabase, a powerful backend-as-a-service platform that stores the data in real-time.
+
+This project highlights the integration of modern tools and frameworks like NextAuth.js for authentication and Supabase for database management, along with fast deployment using Vercel. It's a great example of a full-stack application that combines both frontend and backend functionalities.
+
+---
+
+## 🔗 Live Demo
+
+Check out the live version here:  
+👉 [https://hilink-sigma-lime.vercel.app/](https://hilink-sigma-lime.vercel.app/)
+
+---
+
+## 🚀 Features
+
+- 🔐 Secure authentication using **NextAuth.js**
+- 📬 Contact form with validation and submission
+- ☁️ Real-time data storage with **Supabase**
+- 📱 Fully responsive design for all devices
+- ⚡ Hosted and deployed on **Vercel**
+- 🌐 Modern and clean UI
+
+---
+
+## 🛠️ Tech Stack
+
+- **Framework:** [Next.js](https://nextjs.org/)
+- **Authentication:** [NextAuth.js](https://next-auth.js.org/)
+- **Database:** [Supabase](https://supabase.com/)
+- **Styling:** Tailwind CSS
+- **Deployment:** [Vercel](https://vercel.com/)
+
+---
+
+## 📥 How to Use
 
 ```bash
+# 1. Clone the repository
+git clone https://github.com/your-username/hilink.git
+
+# 2. Navigate to the project directory
+cd hilink
+
+# 3. Install dependencies
+npm install
+
+# 4. Create and configure the .env.local file with:
+# - NEXTAUTH_SECRET
+# - NEXTAUTH_URL
+# - Supabase URL and anon/public key
+# Example:
+NEXTAUTH_SECRET=your_secret_key
+NEXTAUTH_URL=http://localhost:3000
+SUPABASE_URL=https://yourproject.supabase.co
+SUPABASE_ANON_KEY=your_anon_key
+
+# 5. Run the development server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
