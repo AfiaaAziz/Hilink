@@ -43,6 +43,9 @@ Check out the live version here:
 ### 📬 Contact Form
 ![Contact Form](screenshots/contact.png)
 
+### 🧠 Supabase Backend (Database View)
+![Supabase Backend](screenshots/Supabase.png)
+
 ---
 
 ## 📥 How to Use
