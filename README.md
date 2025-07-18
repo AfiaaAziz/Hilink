@@ -40,6 +40,28 @@ Check out the live version here:
 ### 🏠 Homepage
 ![Homepage](screenshots/HomePage.png)
 
+------
+
+## 📊 How HiLink Works
+![How HiLink Works](screenshots/2ndpage.png)
+
+------
+
+## 🧠 Supabase Query
+![Supabase Query](screenshots/query.png)
+
+------
+
+## 💰 Pricing Section
+![Pricing](screenshots/pricingplan.png)
+
+------
+
+## 🛎️ Services Section
+![Services](screenshots/services.png)
+
+------
+
 ### 📬 Contact Form
 ![Contact Form](screenshots/contact.png)
 
